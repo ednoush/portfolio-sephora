@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Edna Sephora Oule — Ingénieure Cybersécurité</title>
+<title>Edna Sephora Oule — Ingénieure DevSecOps</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -656,13 +656,13 @@
         <span class="status-dot"></span>
         Disponible — Recherche CDI
       </div>
-      <div class="hero-tag">Ingénieure Cybersécurité</div>
+      <div class="hero-tag">Ingénieure DevSecOps</div>
       <h1 class="hero-name">
         Edna Sephora<span>Oule</span>
       </h1>
-      <p class="hero-title">// Sécurité des Infrastructures & Détection d'Incidents</p>
+      <p class="hero-title">// DevSecOps · Sécurité des Infrastructures · CI/CD · Conteneurisation</p>
       <p class="hero-desc">
-        Spécialisée en sécurisation d'infrastructures, gestion des accès et détection d'incidents.
+        Ingénieure DevSecOps diplômée en cybersécurité, combinant expertise en infrastructure sécurisée avec une pratique active des pipelines CI/CD, de l'automatisation et de la conteneurisation.
         MSc Cybersécurité, Réseaux et Cloud — EFREI Paris.
       </p>
       <div class="hero-ctas">
@@ -683,16 +683,16 @@
           <div class="t-out t-highlight">edna_sephora_oule</div>
           <br>
           <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd">cat profile.json</span></div>
-          <div class="t-out">role: <span class="t-highlight">"Ingénieure Cybersécurité"</span></div>
-          <div class="t-out">exp: <span class="t-success">"+3 ans"</span></div>
+          <div class="t-out">role: <span class="t-highlight">"Ingénieure DevSecOps"</span></div>
+          <div class="t-out">exp: <span class="t-success">"+2 ans"</span></div>
           <div class="t-out">status: <span class="t-warn">"CDI_READY"</span></div>
           <br>
           <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd">run ./skills --list</span></div>
-          <div class="t-out t-success">[✓] Active Directory / LDAP</div>
-          <div class="t-out t-success">[✓] Wazuh / SIEM / SOC</div>
-          <div class="t-out t-success">[✓] WAF / Nginx / ModSecurity</div>
-          <div class="t-out t-success">[✓] IAM / MFA / Zero Trust</div>
-          <div class="t-out t-success">[✓] Cloud Multi-tiers</div>
+          <div class="t-out t-success">[✓] GitLab CI / Pipelines CI/CD</div>
+          <div class="t-out t-success">[✓] Docker / Compose / Trivy</div>
+          <div class="t-out t-success">[✓] Ansible / Automatisation</div>
+          <div class="t-out t-success">[✓] Wazuh / SIEM / Gitleaks</div>
+          <div class="t-out t-success">[✓] Active Directory / IAM / MFA</div>
           <br>
           <div class="t-line"><span class="t-prompt">$</span><span class="t-cursor"></span></div>
         </div>
@@ -706,6 +706,19 @@
   <div class="section-label">01 &mdash; Compétences</div>
   <h2 class="section-title">Stack technique</h2>
   <div class="skills-grid fade-up">
+    <div class="skill-card">
+      <div class="skill-icon">[ DEVSECOPS & CI/CD ]</div>
+      <div class="skill-name">Automatisation & Pipelines</div>
+      <p style="font-size:13px;color:var(--muted);line-height:1.6;">Intégration de contrôles de sécurité dans les pipelines CI/CD, scan de secrets, scan de vulnérabilités, gates bloquantes.</p>
+      <div class="skill-tags">
+        <span class="tag active">GitLab CI</span>
+        <span class="tag active">Docker</span>
+        <span class="tag active">Ansible</span>
+        <span class="tag">Gitleaks</span>
+        <span class="tag">Trivy</span>
+        <span class="tag">Git</span>
+      </div>
+    </div>
     <div class="skill-card">
       <div class="skill-icon">[ INFRASTRUCTURE ]</div>
       <div class="skill-name">Sécurité des infrastructures</div>
@@ -849,6 +862,19 @@
   <h2 class="section-title">Réalisations & projets</h2>
   <div class="projects-grid fade-up">
     <div class="project-card" data-num="01">
+      <div class="project-label">DevSecOps · En cours</div>
+      <div class="project-title">Pipeline CI/CD Sécurisé</div>
+      <p class="project-desc">Intégration de contrôles de sécurité automatiques dans un pipeline GitLab CI : scan de secrets avec Gitleaks, scan de vulnérabilités Docker avec Trivy, gate bloquante si vulnérabilité critique détectée avant déploiement.</p>
+      <div class="skill-tags">
+        <span class="tag active">GitLab CI</span>
+        <span class="tag active">Docker</span>
+        <span class="tag active">Gitleaks</span>
+        <span class="tag">Trivy</span>
+        <span class="tag">Git</span>
+        <span class="tag">Linux</span>
+      </div>
+    </div>
+    <div class="project-card" data-num="02">
       <div class="project-label">Infrastructure Cloud</div>
       <div class="project-title">Sécurisation d'une infrastructure Cloud multi-tiers</div>
       <p class="project-desc">Conception et déploiement d'une infrastructure hébergeant une plateforme web, avec sécurisation des flux HTTP/FTP via SSL/TLS, IAM, protection GRUB, détection d'intrusions et audit de vulnérabilités.</p>
@@ -860,7 +886,7 @@
         <span class="tag">Logrotate</span>
       </div>
     </div>
-    <div class="project-card" data-num="02">
+    <div class="project-card" data-num="03">
       <div class="project-label">Bastion d'accès</div>
       <div class="project-title">Mise en place d'un bastion Teleport</div>
       <p class="project-desc">Installation et configuration de Teleport sur serveur Linux : services d'authentification, proxy, web UI, gestion des accès sécurisés SSH et RDP, supervision via interface web.</p>
@@ -922,16 +948,16 @@
   <h2 class="contact-title">Travaillons<br>ensemble</h2>
   <p style="font-size:14px;color:var(--muted);margin-bottom:2rem;font-family:var(--mono);">Disponible pour un CDI en cybersécurité.</p>
   <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
-    <a href="mailto:edna@example.com" class="btn-primary">Envoyer un message</a>
-    <a href="https://www.linkedin.com" target="_blank" class="btn-secondary">LinkedIn →</a>
+    <a href="mailto:ednasephora@gmail.com" class="btn-primary">Envoyer un message</a>
+    <a href="www.linkedin.com/in/oule-sephora" target="_blank" class="btn-secondary">LinkedIn →</a>
   </div>
   <p style="font-family:var(--mono);font-size:11px;color:var(--border);margin-top:4rem;letter-spacing:0.1em;">
-    Roissy-en-Brie, France &mdash; Île-de-France & Remote
+    Moissy-Cramayel, France &mdash; Île-de-France & Remote
   </p>
 </div>
 
 <footer>
-  <p>&copy; 2025 Edna Sephora Oule</p>
+  <p>&copy; 2026 Edna Sephora Oule</p>
   <p>Ingénieure Cybersécurité — Paris, France</p>
 </footer>
 
